@@ -13,6 +13,20 @@
                 "element": {"#": "main"}
             }
         },
+        "button": {
+            "prototype": "montage/ui/button.reel",
+            "properties": {
+                "element": {"#": "button"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true",
+                "enabled": true,
+                "formenctype": "application/x-www-form-urlencoded",
+                "formmethod": "get",
+                "label": "Button",
+                "type": "button"
+            }
+        },
         "text": {
             "prototype": "montage/ui/text.reel",
             "properties": {
@@ -33,7 +47,10 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <p data-montage-id="text2"></p>
-        <p data-montage-id="text"></p>
+        <p data-montage-id="text">
+
+        </p>
+        <button data-montage-id="button"></button>
     </div>
 </body>
 </html>
